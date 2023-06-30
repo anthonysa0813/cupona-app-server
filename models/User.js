@@ -20,6 +20,7 @@ const UserSchema = Schema({
   email: {
     type: String,
     required: true,
+    unique: true,
   },
   phone: {
     type: String,
@@ -30,8 +31,7 @@ const UserSchema = Schema({
     required: true,
   },
   cuopon: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Coupon",
+    type: String,
     required: false,
   },
 });
