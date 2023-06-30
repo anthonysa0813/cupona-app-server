@@ -16,9 +16,7 @@ export const createCoupons = async (req = request, res = response) => {
 
     for (let i = 0; i <= Number(number); i++) {
       const coupon = new Coupon({
-        code: `${mesesArr[mesNumber].toUpperCase()}${uuidv4()
-          .substring(0, 8)
-          .toUpperCase()}`,
+        code: `${uuidv4().substring(0, 6).toUpperCase()}`,
       });
       coupon.save();
     }
