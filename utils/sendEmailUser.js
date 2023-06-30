@@ -14,8 +14,8 @@ export const sendEmailToUser = (email, name) => {
     Messages: [
       {
         From: {
-          Email: "anthonysa0813@gmail.com",
-          Name: "Tienda de anthony",
+          Email: "jocdwardo25@gmail.com",
+          Name: "Tienda de eduardo",
         },
         To: [
           {
