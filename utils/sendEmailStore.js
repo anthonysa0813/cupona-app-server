@@ -112,9 +112,9 @@ export const sendEmailToStore = (data) => {
         <th>Teléfono</th>
         <th>Tipo de documento</th>
         <th>Número de documento</th>
-        <th>Tienda</th>
-        <th>Email</th>
         <th>Cupón</th>
+        <th>Email</th>
+        <th>Tienda</th>
       </tr>
       <tr>
        <td> ${data.name} </td>
